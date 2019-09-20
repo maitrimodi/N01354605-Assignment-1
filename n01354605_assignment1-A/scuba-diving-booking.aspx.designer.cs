@@ -31,6 +31,15 @@ namespace n01354605_assignment1_A {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// no_registrants control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList no_registrants;
+        
+        /// <summary>
         /// fname control.
         /// </summary>
         /// <remarks>
@@ -94,13 +103,13 @@ namespace n01354605_assignment1_A {
         protected global::System.Web.UI.WebControls.DropDownList location;
         
         /// <summary>
-        /// booking_date control.
+        /// date_available control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox booking_date;
+        protected global::System.Web.UI.WebControls.DropDownList date_available;
         
         /// <summary>
         /// time control.

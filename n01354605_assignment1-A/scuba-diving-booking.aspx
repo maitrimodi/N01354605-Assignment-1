@@ -93,6 +93,15 @@
                     <p style="color:aqua; font-size:20px">Please fill in this form to book your diving session.</p>
                     <hr/>
                     <div>
+                        <label for="no_registrants"><b>Number of registrants:</b></label>
+                        <asp:DropDownList runat="server" ID="no_registrants" class="select-inputs">
+                            <asp:ListItem Text="1" Value="1"></asp:ListItem>
+                            <asp:ListItem Text="2" Value ="2"></asp:ListItem>
+                            <asp:ListItem Text="3" Value="3"></asp:ListItem>
+                            <asp:ListItem Text="4" Value="4"></asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div>
                         <label for="fname"><b>First Name</b></label>
                         <asp:TextBox ID="fname" runat="server" placeholder="First Name"></asp:TextBox>
                     </div>
@@ -130,8 +139,18 @@
                         </asp:DropDownList>
                     </div>
                     <div>
-                        <label for="date_of_booking"><b>Booking Date</b></label>
-                        <asp:TextBox ID="booking_date" runat="server" TextMode="Date"></asp:TextBox>
+                        <label for="date_available"><b>Available Date</b></label>
+                        <asp:DropDownList runat="server" ID="date_available" class="select-inputs">
+                            <asp:ListItem Text="Oct-05-2019" Value="Oct-05-2019"></asp:ListItem>
+                            <asp:ListItem Text="Nov-02-2019" Value ="Nov-02-2019"></asp:ListItem>
+                            <asp:ListItem Text="Nov-09-2019" Value="Nov-09-2019"></asp:ListItem>
+                            <asp:ListItem Text="Nov-16-2019" Value="Nov-16-2019"></asp:ListItem>
+                            <asp:ListItem Text="Nov-23-2019" Value="Nov-23-2019"></asp:ListItem>
+                            <asp:ListItem Text="Nov-30-2019" Value="Nov-30-2019"></asp:ListItem>
+                            <asp:ListItem Text="Dec-07-2019" Value="Dec-07-2019"></asp:ListItem>
+                            <asp:ListItem Text="Dec-14-2019" Value="Dec-14-2019"></asp:ListItem>
+
+                        </asp:DropDownList>
                     </div>
                     <div>
                         <label for="time"><b>Choose time</b></label>
