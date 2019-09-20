@@ -94,19 +94,19 @@
                     <hr/>
                     <div>
                         <label for="fname"><b>First Name</b></label>
-                        <asp:TextBox ID="fname" runat="server" placeholder="First Name" required="true"></asp:TextBox>
+                        <asp:TextBox ID="fname" runat="server" placeholder="First Name"></asp:TextBox>
                     </div>
                     <div>
                         <label for="lname"><b>Last Name</b></label>
-                        <asp:TextBox ID="lname" runat="server" placeholder="Last Name"  required="true"></asp:TextBox>
+                        <asp:TextBox ID="lname" runat="server" placeholder="Last Name"></asp:TextBox>
                     </div>
                     <div>
                         <label for="email"><b>E-mail</b></label>
-                        <asp:TextBox ID="email" runat="server" TextMode="email" placeholder="E-mail"  required="true"></asp:TextBox>
+                        <asp:TextBox ID="email" runat="server" TextMode="email" placeholder="E-mail" ></asp:TextBox>
                     </div>
                     <div>
                         <label for="mobile"><b>Mobile No.</b></label>
-                        <asp:TextBox ID="mobile" runat="server" TextMode="number" placeholder="Mobile No"  required="true" />
+                        <asp:TextBox ID="mobile" runat="server" TextMode="number" placeholder="Mobile No"  />
                     </div>
                     <div>
                         <label for="gender"><b>Gender</b></label>
@@ -119,7 +119,7 @@
                     </div>
                     <div>
                         <label for="birthdate"><b>Date of Birth</b></label>
-                        <asp:TextBox ID="bday" runat="server" TextMode="Date" required="true" />
+                        <asp:TextBox ID="bday" runat="server" TextMode="Date"/>
                     </div>
                     <div>
                         <label for="location"><b>Location of dive</b></label>
@@ -131,7 +131,7 @@
                     </div>
                     <div>
                         <label for="date_of_booking"><b>Booking Date</b></label>
-                        <asp:TextBox ID="booking_date" runat="server" TextMode="Date" required="true"></asp:TextBox>
+                        <asp:TextBox ID="booking_date" runat="server" TextMode="Date"></asp:TextBox>
                     </div>
                     <div>
                         <label for="time"><b>Choose time</b></label>
@@ -146,19 +146,19 @@
                     </div>
                     <div>
                         <label for="state"><b>State</b></label>
-                        <asp:TextBox ID="state" runat="server" placeholder="State" required="true"></asp:TextBox>
+                        <asp:TextBox ID="state" runat="server" placeholder="State" ></asp:TextBox>
                     </div>
                     <div>
                         <label for="city"><b>City</b></label>
-                        <asp:TextBox ID="city" runat="server" placeholder="City" required="true"></asp:TextBox>
+                        <asp:TextBox ID="city" runat="server" placeholder="City" ></asp:TextBox>
                     </div>
                     <div>
                         <label for="street"><b>Street Address</b></label>
-                        <asp:TextBox ID="street" runat="server" placeholder="Street Address" required="true"></asp:TextBox>
+                        <asp:TextBox ID="street" runat="server" placeholder="Street Address" ></asp:TextBox>
                     </div>
                     <div>
                         <label for="zip"><b>Zip Code</b></label>
-                        <asp:TextBox ID="zip" runat="server" placeholder="Zip-code" required="true"></asp:TextBox>
+                        <asp:TextBox ID="zip" runat="server" placeholder="Zip-code" ></asp:TextBox>
                     </div>
                     <div>
                         <asp:CheckBoxList ID="news" runat="server">
@@ -178,4 +178,5 @@
         
     </body>
 </html>
+
 
