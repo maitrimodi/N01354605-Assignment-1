@@ -76,7 +76,7 @@
     </head> 
     <body>
         <center>     
-            <h1><u>Coral Scuba Drive</u></h1>
+            <h1><u>Coral Scuba Dive</u></h1>
         </center>
         <asp:Image CssClass="header-bg-image" ID="image" runat="server" ImageUrl="~/reef1.jpg" /> 
         <div class="main-container">
